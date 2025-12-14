@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+# While loop and if condition that prints bad luck at the 4th time and good luck at the 8th time
+number=1
+while [ $number -le 10 ]
+do
+     if [ $number -eq 4 ]; then
+          echo "bad luck" 
+     elif [ $number -eq 8 ]; then
+          echo "good luck"
+     else
+     echo "Best School"
+     fi
+     ((number++))
+done
