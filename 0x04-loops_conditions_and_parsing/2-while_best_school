@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# While loop that prints Best School until it reaches 10 times
+number=0
+while [ $number -lt 10 ]
+do
+     echo "Best School"
+     ((number++))
+done
