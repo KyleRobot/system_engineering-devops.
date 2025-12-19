@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#Displaying all processes in anorganized format and showing user and commands
+ps aux
