@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
-ps aufx | grep bash
+# Displaying processes with the string bash only. 
 # shellcheck disable=SC2009
+ps aufx | grep bash
