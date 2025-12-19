@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# SIGKILL termination no invicibility
+pkill -9 -f "7-highlander"
