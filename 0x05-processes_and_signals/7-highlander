@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+# terminating a process with the cmd from another file
+trap 'echo "I am invicible!!!"' SIGTERM
+i=0
+while [ $i -lt 1 ]
+do 
+    echo "To infinity and beyond"
+    sleep 2
+
+    if [ -f "67-stop_me_if_you_can" ]; then
+       break # To "stop" without using the word kill, we exit the loop
+    fi
+done
